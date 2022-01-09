@@ -1,10 +1,12 @@
 # react-moduleContext
 It simplifies the use of useReducer and useContext, and quickly builds a module with context function
 
-#Install 
+##Install 
+```
 $ npm install --save react-moduleContext
+```
 
-#Demo
+##Demo
 ```
 function reducer(state, action) {
   switch (action.type) {
