@@ -5,6 +5,7 @@ It simplifies the use of useReducer and useContext, and quickly builds a module 
 $ npm install --save react-moduleContext
 
 #Demo
+```
 function reducer(state, action) {
   switch (action.type) {
     case "setTheme":
@@ -27,4 +28,4 @@ function Theme(props) {
 }
 
  const { state, dispatch } = useModuleContext();
-
+```
